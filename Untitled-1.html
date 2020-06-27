@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title> MoreThanJustaGift</title>
+<style>
+body {
+  margin: 0;
+}
+html,
+      body {
+        height: 100%;
+      }
+@font-face {
+   font-family: myFirstFont;
+   src: url(VacationsInParadisePersonalUse-qwml.ttf);
+}
+h3{
+  font-family:Arial, Helvetica, sans-serif;
+}
+h2,.topnav {
+   font-family: myFirstFont;
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgb(104, 199, 223);
+  box-shadow: 0px 8px 6px -6px rgb(209, 209, 209);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: lavender;
+  font-size: 17px;
+  
+}
+
+.topnav a:hover {
+  background-color: rgba(185, 179, 179, 0.705);
+  color: rgb(253, 253, 253);;
+}
+
+.topnav a.active {
+  background-color: rgb(255, 255, 255);
+  color: rgba(75, 73, 73, 0.349);
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.range {
+  -webkit-appearance: none;
+  width: 25%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  
+  transition: opacity .2s;
+}
+
+.range:hover {
+  opacity: 1;
+}
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: gray;
+  cursor: pointer;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.fixed {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 100%;
+        width: 100%;
+        color: #eeeeee;
+        text-align: center;
+        display: table;
+      }
+.scroll {
+        background-color: rgb(104, 199, 223);
+        padding: 10px 70px;
+        color: white;
+      } 
+.main{
+  background-image: linear-gradient(to bottom right, rgb(236, 243, 245),rgb(93, 188, 210));
+}   
+      .one {
+        background-image: url("https://image.freepik.com/free-photo/minimal-concept-outstanding-white-gift-box-blue-ribbon-blue-gift-box-pink-ribbon-blue-background_85046-13.jpg")
+      }
+      .two {
+        background-image: url("https://us.123rf.com/450wm/atic12/atic121602/atic12160200038/52420097-closeup-portrait-joyful-elderly-gentleman-in-white-striped-shirt-holding-up-two-fingers-isolated-out.jpg?ver=6")
+      }
+      .three {
+       background-image: url("https://image.freepik.com/free-photo/group-friends-with-gifts-colorful-balloons-blue-background_23-2147950885.jpg")
+}
+</style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active">Home</a>
+        <a >Kids</a>
+        <a >Women</a>
+        <a >Men</a>
+        <a >Miscellaneous</a>
+        <a >Sign up</a>
+        <a >Contact Us</a>
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+          </form>
+        <a>Dark Mode!<input class="range" type="range"min="1" max="2" value="1" id="Range"></a>
+    </div>
+    <div class="scroll main">
+      <img src="Asset 3.png"style="display: block;margin-left: auto;margin-right: auto;">
+    </div>
+    <div class="fixed one"></div>
+    <div class="scroll">
+        <h2>Make India smile</h2>
+        <h3>All our products are responsibly sourced from expert artisians across India.All proceedings from your gift buying goes directly to the artists,bringing a smile to their faces too</h3>
+    </div>
+    <div class="fixed two"></div>
+    <div class="scroll">
+      <h2>Sign Up!</h2>
+        <h3>From a gift for your child's bestfriend or an anniversary gift for your significant other,we've got you covered!. Simply <link href="www.google.com">Sign up to get started!</h3>
+    </div>
+    <div class="fixed three"></div>
+    <div class="scroll">
+        <h2>Coming Soon!</h2>
+        <h3>Confused from our wide range of options?Simply take our AI-powered quiz to find the right gift!</h3>
+    </div>
+    <div class="fixed four"></div>
+    <script>
+      var slider = document.getElementById("Range");
+
+
+slider.oninput = function() {
+  var element=document.body;
+  element.classList.toggle("dark-mode");
+}
+    </script>
+</body>
+</html>
