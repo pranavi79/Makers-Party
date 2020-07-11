@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "243325244594",
+    "firebase_url": "https://kitabghar-1.firebaseio.com",
+    "project_id": "kitabghar-1",
+    "storage_bucket": "kitabghar-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243325244594:android:21ff17d726bc89cb1b25ab",
+        "android_client_info": {
+          "package_name": "com.example.first"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243325244594-51eitkk89peeo2s8l3ru8ab95i9agno8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.first",
+            "certificate_hash": "7606361640eec7481ff69b5782b7d378390a43a9"
+          }
+        },
+        {
+          "client_id": "243325244594-0m9222vlmaq9556s6qmtttiomgkre12s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.first",
+            "certificate_hash": "e575501cdb124c30b4a628278707dbca618616f5"
+          }
+        },
+        {
+          "client_id": "243325244594-qdnpk13bmddgeo4no8s3rhbfgo480491.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqTxD0xAhuQYCr4ai6BsnhNBajWO9tMQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243325244594-qdnpk13bmddgeo4no8s3rhbfgo480491.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
