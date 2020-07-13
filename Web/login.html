@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+<meta charset="UTF-8"name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    :root{
+        --background-color:rgba(185, 179, 179, 0.705);
+        --border:white;
+    }
+    :root[theme='dark']{
+        --background-color:rgba(0, 0, 0, 0.527);
+        --border:gray;
+    }
+           
+    body {
+  margin: 0;
+}
+@font-face {
+   font-family: myFirstFont;
+   src: url(VacationsInParadisePersonalUse-qwml.ttf);
+}
+h3{
+  font-family:Arial, Helvetica, sans-serif;
+}
+h2,.topnav {
+   font-family: myFirstFont;
+}
+.topnav {
+    z-index: 1;
+    position: relative;
+  overflow: hidden;
+  background-color: rgb(104, 199, 223);
+  box-shadow: 0px 8px 6px -6px rgb(209, 209, 209);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: lavender;
+  font-size: 17px;
+  
+}
+
+.topnav a:hover {
+  background-color: rgba(185, 179, 179, 0.705);
+  color: rgb(253, 253, 253);;
+}
+
+.topnav a.active {
+  background-color: rgb(255, 255, 255);
+  color: rgba(75, 73, 73, 0.349);
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.range {
+  -webkit-appearance: none;
+  width: 25%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  
+  transition: opacity .2s;
+}
+
+.range:hover {
+  opacity: 1;
+}
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: gray;
+  cursor: pointer;
+}
+
+ body,
+      html {
+        height: 100%;
+        margin: 0;
+        font-family: Helvetica, sans-serif;
+      }
+      .image {
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .one {
+        background-image: url("https://static.toiimg.com/photo/msid-72976503/72976503.jpg")
+      }
+      .two {
+        background-image: url("https://images.pexels.com/photos/1303082/pexels-photo-1303082.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
+      }
+      .three {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSlYnS6cPDhTKlMSDJlPZlDYa5YWrWFGGp6og&usqp=CAU")
+      }
+      .four {
+        background-image: url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80")
+      }
+      .five {
+        background-image: url("https://cdn.cancercenter.com/-/media/ctca/images/others/blogs/2018/11-november/04-blog-holiday-gift-l.jpg")
+      }
+      .six {
+        background-image: url("https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80")
+      }
+      .seven {
+        background-image: url("https://cdn.cancercenter.com/-/media/ctca/images/others/blogs/2018/11-november/04-blog-holiday-gift-l.jpg")
+      }
+/* Full-width input fields */
+.uname {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: rgb(104, 199, 223);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 0px 8px 6px -6px rgb(209, 209, 209);
+  font-family: myFirstFont;
+}
+
+button:hover {
+  background-color: rgba(185, 179, 179, 0.705);
+  color: rgb(253, 253, 253);;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 1px;
+}
+
+/* The Modal (background) */
+.modal {
+  position: fixed; /* Stay in place */
+   /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color:var(--background-color);
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  width:30%;
+  color: white;
+  border:8px solid var(--border);
+}
+
+</style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a >Kids</a>
+        <a >Women</a>
+        <a >Men</a>
+        <a >Miscellaneous</a>
+        <a class="active">Log In</a>
+        <a >Contact Us</a>
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+          </form>
+        <a>Dark Mode!<input class="range" type="range"min="1" max="2" value="1" id="Range"></a>
+    </div>
+ <div class="image one"></div>
+    <div class="image two"></div>
+    <div class="image three"></div>
+    <div class="image four"></div>
+    <div class="image five"></div>
+    <div class="image six"></div>
+    <div class="image seven"></div>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content" action="/action_page.php" method="post">
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" class="uname"name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" class="uname" name="psw" required>
+        
+      <button type="submit">Login!</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+      <span class="psw"><a href="#">Forgot password?</a></span>
+      <div style="text-align-last: center"><a href="#">New?Sign Up here!</a></div>
+    </div>
+    
+  </form>
+</div>
+<script>
+       const toggleBtn = document.querySelector("#Range");
+       toggleBtn.addEventListener('change', (e) => {
+            console.log("Switching theme");
+            if (document.documentElement.hasAttribute('theme')) {
+                document.documentElement.removeAttribute('theme');
+            }
+            else {
+                document.documentElement.setAttribute('theme', 'dark');
+            }
+        });
+      </script>
+
+</body>
+</html>

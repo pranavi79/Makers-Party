@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>MoreThanJustAGift</title>
+        <link rel="stylesheet" href="contactus.css">
+        <link rel="stylesheet" href="navbar.css">
+
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">MoreThanJustaGift</a>
+            <div class="collapse navbar-collapse" id="navbarContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Kids</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Men</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Women</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Miscellaneous</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="contactus.html">Contact Us</a>
+                </li>
+              </ul>
+              <a class= "nav-item my-lg-2 my-sm-2">Dark Mode!<input class="range" type="range"min="1" max="2" value="1" id="Range"></a>
+             </div>
+              
+            <a class="nav-item mr-lg-2 mr-sm-0" href="login.html" id="loginLink">Log In</a>
+        
+            <form class= "form-inline my-2 mr-lg-0" action="/action_page.php">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="search">
+              <button class="btn btn-outline-primary my-2 my-sm-0 " id="searchBtn" type="submit">Search</button>
+            </form>
+            
+            <button class="navbar-toggler mr-lg-2" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>            
+        </nav>  
+
+       <div class="container ">
+        <div class="row">
+          <div class="col-9">
+            <div class="card">
+              <div class="card-header">
+                Send us a message
+              </div>
+
+              <form>
+                  <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" class="form-control" id="name" placeholder="Your full name">
+                  </div>
+                  <div class="form-group">
+                      <label for="telephone">Phone Number</label>
+                      <input type="tel" class="form-control" id="telephone" placeholder="Your 10 digit mobile number">
+                  </div>
+                  <div class="form-group">
+                      <label for="messageBox">Message</label>
+                      <textarea class="form-control" id="messageBox" rows="4"></textarea>
+                  </div>
+                  <button type="button" type="submit" class="btn btn-primary">Send</button>
+                  <button type="button" type="reset" class="btn btn-secondary">Reset</button>
+              </form>
+            </div>
+          </div>
+          <div class="col">
+            <img src="contactills.jpg" id="img1" alt="Reach out to us">
+          </div>
+        </div>
+        <div class="row">
+          
+        </div>
+      </div>
+       
+    
+          
+    </body>
+</html>

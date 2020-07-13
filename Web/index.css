@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+  }
+
+html, body {
+          height: 100%;
+        }
+
+  @font-face {
+     font-family: myFirstFont;
+     src: url(VacationsInParadisePersonalUse-qwml.ttf);
+  }
+#loginLink , #searchBtn{
+    margin: 10dp;
+    padding-left: 10dp;
+}
+
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+h2, .navbar-brand{
+     font-family: myFirstFont;
+  }
+
+nav{
+    box-shadow: 0px 8px 6px -6px rgb(209, 209, 209);
+}
+
+/* .topnav {
+    overflow: hidden;
+    background-color: rgb(104, 199, 223);
+    box-shadow: 0px 8px 6px -6px rgb(209, 209, 209);
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: lavender;
+    font-size: 17px;
+    
+  }
+  
+  .topnav a:hover {
+    background-color: rgba(185, 179, 179, 0.705);
+    color: rgb(253, 253, 253);;
+  }
+  
+  .topnav a.active {
+    background-color: rgb(255, 255, 255);
+    color: rgba(75, 73, 73, 0.349);
+  }
+  
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  } */
+  .range {
+    -webkit-appearance: none;
+    width: 25%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    
+    transition: opacity .2s;
+  }
+  
+  .range:hover {
+    opacity: 1;
+  }
+  
+  .range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: gray;
+    cursor: pointer;
+  }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+
+.fixed {
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          height: 100%;
+          width: 100%;
+          color: #eeeeee;
+          text-align: center;
+          display: table;
+        }
+
+.scroll {
+          background-color: rgb(104, 199, 223);
+          padding: 10px 70px;
+          color: white;
+        } 
+
+.main{
+    background-image: linear-gradient(to bottom right, rgb(236, 243, 245),rgb(93, 188, 210));
+  }   
+        .one {
+          background-image: url("https://image.freepik.com/free-photo/minimal-concept-outstanding-white-gift-box-blue-ribbon-blue-gift-box-pink-ribbon-blue-background_85046-13.jpg")
+        }
+        .two {
+          background-image: url("https://us.123rf.com/450wm/atic12/atic121602/atic12160200038/52420097-closeup-portrait-joyful-elderly-gentleman-in-white-striped-shirt-holding-up-two-fingers-isolated-out.jpg?ver=6")
+        }
+        .three {
+         background-image: url("https://image.freepik.com/free-photo/group-friends-with-gifts-colorful-balloons-blue-background_23-2147950885.jpg")
+  }

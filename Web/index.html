@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title> MoreThanJustaGift</title>
+<link rel="stylesheet" href="index.css">
+
+<!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">MoreThanJustaGift</a>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kids</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Men</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Women</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Miscellaneous</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactus.html">Contact Us</a>
+        </li>
+      </ul>
+      <a class= "nav-item my-lg-2 my-sm-2">Dark Mode!<input class="range" type="range"min="1" max="2" value="1" id="Range"></a>
+     </div>
+      
+    <a class="nav-item mr-lg-2 mr-sm-0" href="login.html" id="loginLink">Log In</a>
+
+    <form class= "form-inline my-2 mr-lg-0" action="/action_page.php">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="search">
+      <button class="btn btn-outline-primary my-2 my-sm-0 " id="searchBtn" type="submit">Search</button>
+    </form>
+    
+    <button class="navbar-toggler mr-lg-2" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    
+  </nav>  
+  
+  <!-- <div class="topnav">
+        <a class="active">Home</a>
+        <a >Kids</a>
+        <a >Women</a>
+        <a >Men</a>
+        <a >Miscellaneous</a>
+        <a href="login.html">Log In</a>
+        <a >Contact Us</a>
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+          </form>
+        <a>Dark Mode!<input class="range" type="range"min="1" max="2" value="1" id="Range"></a>
+    </div> -->
+
+    <div class="scroll main">
+      <img src="Asset 3.png"style="display: block;margin-left: auto;margin-right: auto;width: 65%;">
+    </div>
+    <div class="fixed one"></div>
+    <div class="scroll">
+        <h2>Make India smile</h2>
+        <h3>All our products are responsibly sourced from expert artisians across India.All proceedings from your gift buying goes directly to the artists,bringing a smile to their faces too</h3>
+    </div>
+    <div class="fixed two"></div>
+    <div class="scroll">
+      <h2>Sign Up!</h2>
+        <h3>From a gift for your child's bestfriend or an anniversary gift for your significant other,we've got you covered!. Simply <link href="www.google.com">Sign up to get started!</h3>
+    </div>
+    <div class="fixed three"></div>
+    <div class="scroll">
+        <h2>Coming Soon!</h2>
+        <h3>Confused from our wide range of options?Simply take our AI-powered quiz to find the right gift!</h3>
+    </div>
+    <div class="fixed four"></div>
+    <script>
+      var slider = document.getElementById("Range");
+slider.oninput = function() {
+  var element=document.body;
+  element.classList.toggle("dark-mode");
+}
+    </script>
+
+  <footer>
+
+  </footer>
+</body>
+</html>
